@@ -1,0 +1,11 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "84a45710-e8b0-4425-9dfb-6bb861d5774f", 
+    "isBlueprint": true, 
+    "key": "installxymonmonitoringrhel8", 
+    "links": [], 
+    "name": "Install xymon monitoring - RHEL8", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
