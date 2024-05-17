@@ -1,0 +1,4 @@
+
+bash ./generate_ssl_certs.sh
+
+ls -l /etc/ssl/certs/{targetServerLin.hostname}*

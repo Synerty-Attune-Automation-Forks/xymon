@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "httpdsslconf", 
+    "deployPath": "/etc/httpd/conf.d", 
+    "enabled": true, 
+    "externalUuid4": "c06af31c-1be4-45a4-a927-b8deb7e466e7", 
+    "key": "deployhttpsslconf", 
+    "name": "Deploy http ssl.conf", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

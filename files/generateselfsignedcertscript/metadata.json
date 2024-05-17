@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "a5b970b9-b2a9-4521-982c-4f0b2777b8c0", 
+    "key": "generateselfsignedcertscript", 
+    "name": "Generate Self Signed Cert Script", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

@@ -1,0 +1,30 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "c5a77b60-ae74-460b-a7c3-87640b7678e7", 
+    "isBlueprint": false, 
+    "key": "installxymonserverrhel8", 
+    "links": [
+        {
+            "stepKey": "deployxymondependencies"
+        }, 
+        {
+            "stepKey": "installxymonrpmdependencies"
+        }, 
+        {
+            "stepKey": "cleanuprpms"
+        }, 
+        {
+            "stepKey": "createxymonuserandgroup"
+        }, 
+        {
+            "stepKey": "deployxymonsourcetarfile"
+        }, 
+        {
+            "stepKey": "compilexymon"
+        }
+    ], 
+    "name": "Install Xymon Server - RHEL8", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

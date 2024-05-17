@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "xymonsourcetarfile", 
+    "deployPath": "/usr/local/src", 
+    "enabled": true, 
+    "externalUuid4": "1b6b15b2-6ef6-40c9-bcdb-42012f0a4003", 
+    "key": "deployxymonsourcetarfile", 
+    "name": "Deploy Xymon Source tar File", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

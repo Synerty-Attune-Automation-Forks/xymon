@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "9f235577-fb85-48af-b724-ed876e901af6", 
+    "fileName": "xymon_rhel8_dependencies.tar", 
+    "formatKey": "tar", 
+    "key": "xymonrpmdependencies", 
+    "md5": "8fff301ac27fb9e21c6121f483027e1c", 
+    "name": "Xymon Rpm Dependencies", 
+    "remoteUri": null, 
+    "size": 1761280, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

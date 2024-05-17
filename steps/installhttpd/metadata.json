@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "b3a01ed1-e61b-46e7-b15a-5840cc172e05", 
+    "interpreter": 1, 
+    "key": "installhttpd", 
+    "name": "Install httpd", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

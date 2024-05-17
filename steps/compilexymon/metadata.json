@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "19e7e141-1ee7-4300-a7a3-c623b975891a", 
+    "interpreter": 1, 
+    "key": "compilexymon", 
+    "name": "Compile Xymon ", 
+    "osCredKey": "linuxrootuser", 
+    "promptResponses": "use xymonping [Y/n] ?===Y\nDo you want to use it [Y/n] ?===Y\ntest SSL-enabled services (y) ?===Y\ntest LDAP servers (y) ?===Y\nuserid will be running Xymon [xymon] ?===xymon\nXymon installation [/home/xymon] ?===/opt/xymon\nWhat URL will you use for the Xymon webpages [/xymon] ?===/xymon\nwe will get to the URL shortly)===\nNOT the filesystem directory)===\ngroup-ID does your webserver use [nobody] ?===apache\nXymon logfiles [/var/log/xymon] ?===\nXymon logfiles [/var/log/xymon] ?===\nthis host [{targetServerLin.hostname}] ?===\nIP-address of this host [127.0.0.1] ?==={targetServerLin.Ip}\ninstall the Xymon man-pages (/usr/local/man) ?===\n\n\n [Y/n] ?===Y", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

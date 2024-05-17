@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "c1aa6d4a-152a-4bdc-af6b-ef8dcb5703a2", 
+    "interpreter": 1, 
+    "key": "cleanuprpms", 
+    "name": "Clean Up Rpms ", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

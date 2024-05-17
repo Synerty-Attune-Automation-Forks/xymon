@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "26be0806-c131-46d8-ac9c-514b80c16bda", 
+    "interpreter": 1, 
+    "key": "enablefirewallhttpdport8020", 
+    "name": "Enable Firewall - Httpd Port 8020", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "9af9a78d-d9ac-46c9-9e87-b01daa7c3aae", 
+    "fileName": "xymon-4.3.30.tar.gz", 
+    "formatKey": "tar.gz", 
+    "key": "xymonsourcetarfile", 
+    "md5": "fb5b01ef81e5d8c7a329bda252dfa273", 
+    "name": "Xymon Source tar File", 
+    "remoteUri": null, 
+    "size": 3549653, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

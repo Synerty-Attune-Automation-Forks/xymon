@@ -1,0 +1,20 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "generateselfsignedcertscript", 
+    "deployPath": "/root", 
+    "enabled": true, 
+    "externalUuid4": "370a5d7a-6a0b-4e35-b62a-d5b4e7d5bb9e", 
+    "key": "deploygeneratesslcertscript", 
+    "makoFileNames": [], 
+    "makoParameters": [
+        {
+            "name": "targetServerLin", 
+            "parameterKey": "targetserverlin", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }
+    ], 
+    "name": "Deploy Generate SSL Cert Script", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

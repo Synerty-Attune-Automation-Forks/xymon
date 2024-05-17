@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "64ead4a0-7aed-4f40-ba5e-a8ba7daf8281", 
+    "interpreter": 1, 
+    "key": "createxymonuserandgroup", 
+    "name": "Create Xymon User and Group", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

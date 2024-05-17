@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "689a6c5b-35eb-4033-ac34-dc3c00fbe993", 
+    "interpreter": 1, 
+    "key": "installxymonrpmdependencies", 
+    "name": "Install Xymon Rpm Dependencies", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

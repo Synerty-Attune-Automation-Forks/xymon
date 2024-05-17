@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "802ff2e7-c14c-4b2e-955e-aa3140288b50", 
+    "isBlueprint": false, 
+    "key": "generateselfsignedcerts", 
+    "links": [
+        {
+            "stepKey": "deploygeneratesslcertscript"
+        }, 
+        {
+            "stepKey": "rungeneratesslcertscript"
+        }
+    ], 
+    "name": "Generate Self Signed Certs", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

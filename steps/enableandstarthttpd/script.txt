@@ -1,0 +1,4 @@
+
+systemctl enable httpd --now
+
+systemctl is-active httpd
