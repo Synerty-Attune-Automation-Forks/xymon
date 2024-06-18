@@ -7,7 +7,7 @@
     "key": "installxymonmonitoringrhel8", 
     "links": [
         {
-            "stepKey": "xymoninstallhttpdrhel8peek"
+            "stepKey": "xymoninstallhttpdrhel8"
         }, 
         {
             "stepKey": "installxymonserverrhel8"
