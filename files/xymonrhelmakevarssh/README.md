@@ -1,0 +1,1 @@
+Shell script to export the Environment variables required to comile xymon on RHEL 8

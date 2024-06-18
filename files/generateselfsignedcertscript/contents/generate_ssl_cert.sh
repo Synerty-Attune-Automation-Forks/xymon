@@ -9,7 +9,7 @@ openssl req -nodes -x509 -sha256 -newkey rsa:4096 \
   -keyout ${targetServerLin.hostname}.key \
   -out ${targetServerLin.hostname}.crt \
   -days 3650 \
-  -subj "/C=AU/ST=QLD/L=Brisbane/O=Synerty/OU=Synerty Peek/CN=${targetServerLin.hostname}" \
+  -subj "/C=AU/ST=QLD/O=Synerty/OU=Synerty Attune/CN=${targetServerLin.hostname}" \
   -extensions san \
   -config <( \
   echo '[req]' ; \
@@ -17,10 +17,10 @@ openssl req -nodes -x509 -sha256 -newkey rsa:4096 \
   echo '[san]' ; \
   echo "subjectAltName=DNS:${targetServerLin.hostname},DNS:${targetServerLin.fqn},DNS:${targetServerLin.Ip}")
 
-mv ${targetServerLin.hostname}.crt /etc/ssl/certs/
-mv ${targetServerLin.hostname}.key /etc/pki/tls/private
-chgrp sslcerts /etc/pki/tls/private/${targetServerLin.hostname}.key
-chmod 660 /etc/pki/tls/private/${targetServerLin.hostname}.key
+mv ${targetServerLin.hostname}.crt /etc/ssl/certs/localhost.crt
+mv ${targetServerLin.hostname}.key /etc/pki/tls/private/localhost.key
+chgrp sslcerts /etc/pki/tls/private/localhost.key
+chmod 660 /etc/pki/tls/private/localhost.key
 
 echo ""
 echo "INFO:SSL keys generated successfully"

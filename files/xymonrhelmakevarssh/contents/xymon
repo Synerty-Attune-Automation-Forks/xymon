@@ -1,0 +1,40 @@
+#!/bin/sh
+# 
+# Wrapper Script to start Xymon services as the xymon user and not root
+### BEGIN INIT INFO
+# Provides:          xymon hobbit
+# Required-Start:    $remote_fs $network
+# Should-Start:      $all
+# Required-Stop:     $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Xymon system monitor server
+# Description:       Xymon system monitor, server part.
+#                    (Also monitors the local host.)
+### END INIT INFO
+
+#set -x
+SCRIPT=/opt/xymon/server/bin/xymon.sh
+
+case "$1" in
+   "start")
+        su - xymon -c "$SCRIPT start" ;;
+
+   "stop")
+        su - xymon -c "$SCRIPT stop" ;;
+
+   "status")
+        su - xymon -c "$SCRIPT status" ;;
+
+   "restart")
+        su - xymon -c "$SCRIPT restart" ;;
+
+   "reload"|"force-reload")
+        su - xymon -c "$SCRIPT reload" ;;
+   "rotate")
+        su - xymon -c "$SCRIPT rotate" ;;
+    *) 
+        echo "Usage: $0 start|stop|restart|force-reload|reload|status|rotate"
+	break;
+esac
+exit

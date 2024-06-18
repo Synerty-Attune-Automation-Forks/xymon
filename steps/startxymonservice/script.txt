@@ -1,0 +1,4 @@
+
+su - xymon -c "/opt/xymon/server/bin/xymon.sh start"
+sleep 5
+su - xymon -c "/opt/xymon/server/bin/xymon.sh status"

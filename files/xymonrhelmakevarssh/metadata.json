@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "e6aa8168-1c7b-40f4-bac9-3a6223e99243", 
+    "key": "xymonrhelmakevarssh", 
+    "name": "Xymon rhel_makevars.sh", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

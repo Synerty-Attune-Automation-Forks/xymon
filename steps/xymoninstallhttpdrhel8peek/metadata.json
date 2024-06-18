@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "4d0ebfde-7a19-4a42-90b9-86032eca78b7", 
     "isBlueprint": false, 
-    "key": "xymoninstallhttpdrhel8", 
+    "key": "xymoninstallhttpdrhel8peek", 
     "links": [
         {
             "stepKey": "installhttpd"
@@ -22,6 +22,6 @@
             "stepKey": "enableandstarthttpd"
         }
     ], 
-    "name": "Xymon Install Httpd - RHEL8", 
+    "name": "Xymon Install Httpd - RHEL8 - PEEK", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

@@ -1,4 +1,5 @@
 
-bash ./generate_ssl_certs.sh
+bash ./generate_ssl_cert.sh
 
-ls -l /etc/ssl/certs/{targetServerLin.hostname}*
+ls -l /etc/ssl/certs/localhost.crt
+ls -l /etc/pki/tls/private/localhost.key

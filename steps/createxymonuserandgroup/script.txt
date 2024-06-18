@@ -1,3 +1,6 @@
 # create the user Xymon will run as
-groupadd xymon
-useradd -g xymon -m xymon
+grep -q xymon /etc/group || groupadd xymon
+grep -q xymon /etc/passwd || useradd -g xymon -m xymon
+
+echo "User xymon created -"
+cat /etc/passwd | grep xymon

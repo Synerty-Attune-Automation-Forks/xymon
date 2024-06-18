@@ -1,4 +1,0 @@
-tar zxvf /usr/local/src/xymon-4.3.30
-cd /usr/local/src/xymon-4.3.30
-./configure
-make

@@ -22,7 +22,13 @@
             "stepKey": "deployxymonsourcetarfile"
         }, 
         {
-            "stepKey": "compilexymon"
+            "stepKey": "deployrhel8helperfiles"
+        }, 
+        {
+            "stepKey": "compilexymon4330"
+        }, 
+        {
+            "stepKey": "startxymonservice"
         }
     ], 
     "name": "Install Xymon Server - RHEL8", 

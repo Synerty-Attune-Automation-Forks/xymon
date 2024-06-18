@@ -1,0 +1,13 @@
+
+cd /usr/local/src/xymon-4.3.30
+source rhel8_makevars.sh
+./configure
+make
+# make install
+
+chown -R xymon:xymon /opt/xymon
+
+# Install the init.d startup Script
+cp xymon /etc/init.d 
+chmod +x /etc/init.d/xymon
+chkconfig xymon on
