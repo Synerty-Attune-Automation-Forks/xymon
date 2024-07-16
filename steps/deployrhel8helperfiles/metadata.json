@@ -5,8 +5,16 @@
     "enabled": true, 
     "externalUuid4": "97ac6101-92f3-465e-aa45-4fb7bbf3923b", 
     "key": "deployrhel8helperfiles", 
-    "makoFileNames": [], 
-    "makoParameters": [], 
+    "makoFileNames": [
+        "rhel8_makevars.sh"
+    ], 
+    "makoParameters": [
+        {
+            "name": "targetServerLin", 
+            "parameterKey": "targetserverlin", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }
+    ], 
     "name": "Deploy RHEL8 Helper Files", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
