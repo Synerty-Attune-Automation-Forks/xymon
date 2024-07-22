@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "a19cd03a-997e-4da2-9ec6-785556b7e931", 
     "isBlueprint": true, 
-    "key": "installxymonmonitoringforpeekrhel8", 
+    "key": "installxymonmonitoringforport8020rhel8", 
     "links": [
         {
             "stepKey": "xymoninstallhttpdrhel8port8020"
@@ -13,6 +13,6 @@
             "stepKey": "installxymonserverrhel8"
         }
     ], 
-    "name": "Install xymon monitoring for PEEK - RHEL8", 
+    "name": "Install xymon monitoring for Port 8020 - RHEL8", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
