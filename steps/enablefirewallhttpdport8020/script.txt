@@ -1,2 +1,5 @@
 firewall-cmd --permanent --add-port 8020/tcp
 firewall-cmd --reload
+
+
+echo Apache is available on https://{targetServerLin:fqn:8020}

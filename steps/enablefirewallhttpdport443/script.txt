@@ -1,0 +1,4 @@
+firewall-cmd --permanent --add-service https 
+firewall-cmd --reload
+
+echo "Apache is available on http://{targetServerLin.fqn}"

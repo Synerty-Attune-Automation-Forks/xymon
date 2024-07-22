@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "e345bac5-481f-4dd4-b1f7-866f22c6c251", 
+    "key": "linuxxymonuser", 
+    "name": "Linux: xymon User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

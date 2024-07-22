@@ -27,8 +27,8 @@ export USEXMONPING=n
 # Username running Xymon
 export XYMONUSER=xymon
 # Xymon server hostname
-export XYMONHOSTNAME={targetServerLin.hostname}
-export XYMONHOSTIP={targetServerLin.Ip}
+export XYMONHOSTNAME=${targetServerLin.fqn}
+export XYMONHOSTIP=${targetServerLin.ip}
 # Xymon server OS
 export XYMONHOSTOS=linux
 

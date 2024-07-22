@@ -2,26 +2,26 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "4d0ebfde-7a19-4a42-90b9-86032eca78b7", 
+    "externalUuid4": "6dfbbcc3-6f53-422d-b153-b967c618fc74", 
     "isBlueprint": false, 
-    "key": "xymoninstallhttpdrhel8", 
+    "key": "xymoninstallhttpdrhel8port8020", 
     "links": [
         {
             "stepKey": "installhttpd"
         }, 
         {
-            "stepKey": "deployhttpsslconf"
+            "stepKey": "deployhttpsslconfport8020"
         }, 
         {
             "stepKey": "generateselfsignedcerts"
         }, 
         {
-            "stepKey": "enablefirewallhttpdport443"
+            "stepKey": "enablefirewallhttpdport8020"
         }, 
         {
             "stepKey": "enableandstarthttpd"
         }
     ], 
-    "name": "Xymon Install Httpd - RHEL8", 
+    "name": "Xymon Install Httpd - RHEL8 Port 8020", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
