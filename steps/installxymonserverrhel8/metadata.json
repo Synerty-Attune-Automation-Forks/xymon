@@ -28,6 +28,9 @@
             "stepKey": "compilexymon4330"
         }, 
         {
+            "stepKey": "setupwebserverforxymon"
+        }, 
+        {
             "stepKey": "startxymonservice"
         }
     ], 

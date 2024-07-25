@@ -1,0 +1,7 @@
+
+# Add Xymon Apache conf
+ln -svf /opt/xymon/server/etc/xymon-apache.conf /etc/httpd/conf.data
+
+# Reload Apache
+systemctl restart httpd
+

@@ -23,6 +23,8 @@ export MANROOT=/usr/local/man
 # How to run fping or xymonping
 export FPING=/usr/sbin/fping
 export USEXMONPING=n
+export USERPING=/usr/sbin/fping
+
 
 # Username running Xymon
 export XYMONUSER=xymon

@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "9b2fe998-2dbe-41c7-849d-c570e890871d", 
+    "interpreter": 1, 
+    "key": "setupwebserverforxymon", 
+    "name": "Setup WebServer for Xymon", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

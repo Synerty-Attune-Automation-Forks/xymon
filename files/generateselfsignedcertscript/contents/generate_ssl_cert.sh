@@ -15,7 +15,7 @@ openssl req -nodes -x509 -sha256 -newkey rsa:4096 \
   echo '[req]' ; \
   echo 'distinguished_name=req' ; \
   echo '[san]' ; \
-  echo "subjectAltName=DNS:${targetServerLin.hostname},DNS:${targetServerLin.fqn},DNS:${targetServerLin.Ip}")
+  echo "subjectAltName=DNS:${targetServerLin.hostname},DNS:${targetServerLin.fqn},DNS:${targetServerLin.ip}")
 
 mv ${targetServerLin.hostname}.crt /etc/ssl/certs/localhost.crt
 mv ${targetServerLin.hostname}.key /etc/pki/tls/private/localhost.key

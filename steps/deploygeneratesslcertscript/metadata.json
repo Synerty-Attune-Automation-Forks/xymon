@@ -5,7 +5,9 @@
     "enabled": true, 
     "externalUuid4": "370a5d7a-6a0b-4e35-b62a-d5b4e7d5bb9e", 
     "key": "deploygeneratesslcertscript", 
-    "makoFileNames": [], 
+    "makoFileNames": [
+        "generate_ssl_cert.sh"
+    ], 
     "makoParameters": [
         {
             "name": "targetServerLin", 
