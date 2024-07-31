@@ -1,6 +1,6 @@
 {
     "externalUuid4": "cbe1b1cc-b47a-4ea7-ae38-538c1ee596e6", 
-    "key": "httpdsslconfport443", 
-    "name": "httpd ssl.conf port 443", 
+    "key": "httpdsslconf", 
+    "name": "httpd ssl.conf", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
 }

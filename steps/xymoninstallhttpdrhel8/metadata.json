@@ -10,13 +10,16 @@
             "stepKey": "installhttpd"
         }, 
         {
+            "stepKey": "deployhttpsslconfstatic"
+        }, 
+        {
             "stepKey": "deployhttpsslconf"
         }, 
         {
             "stepKey": "generateselfsignedcerts"
         }, 
         {
-            "stepKey": "enablefirewallhttpdport443"
+            "stepKey": "enablefirewallhttpdport"
         }, 
         {
             "stepKey": "enableandstarthttpd"

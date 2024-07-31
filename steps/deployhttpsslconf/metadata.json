@@ -1,13 +1,22 @@
 {
     "actionOnStepFail": "stop", 
-    "archiveKey": "httpdsslconfport443", 
+    "archiveKey": "httpdsslconf", 
     "deployPath": "/etc/httpd/conf.d", 
     "enabled": true, 
-    "externalUuid4": "c06af31c-1be4-45a4-a927-b8deb7e466e7", 
+    "externalUuid4": "8740e197-684f-4e18-960d-54e5a4f7308e", 
     "key": "deployhttpsslconf", 
+    "makoFileNames": [
+        "ssl.conf"
+    ], 
+    "makoParameters": [
+        {
+            "name": "httpsPort", 
+            "parameterKey": "xymonhttpsport", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
     "name": "Deploy http ssl.conf", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
-    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
-    "unpack": true
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }
