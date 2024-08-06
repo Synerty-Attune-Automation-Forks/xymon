@@ -1,4 +1,4 @@
 
 cd {targetServerInstallertmpPath.value}/xymon
-rpm -i *.rpm
+dnf install -y *.rpm
 

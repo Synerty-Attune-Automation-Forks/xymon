@@ -1,4 +1,4 @@
 firewall-cmd --permanent --add-port {xymonHttpsPort}/tcp
 firewall-cmd --reload
 
-echo "Apache is available on http://{targetServerLin.fqn}"
+echo "Apache is available on https://{targetServerLin.fqn}:{xymonHttpsPort}"

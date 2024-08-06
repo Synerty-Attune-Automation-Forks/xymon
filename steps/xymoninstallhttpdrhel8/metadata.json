@@ -10,9 +10,6 @@
             "stepKey": "installhttpd"
         }, 
         {
-            "stepKey": "deployhttpsslconfstatic"
-        }, 
-        {
             "stepKey": "deployhttpsslconf"
         }, 
         {
