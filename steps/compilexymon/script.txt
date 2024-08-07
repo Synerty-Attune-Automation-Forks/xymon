@@ -1,7 +1,8 @@
 mkdir -p /opt/xymon
 chown xymon:xymon /opt/xymon
 
-cd /usr/local/src/xymon-4.3.30
+mv {targetServerInstallerTmpPath}/xymon/* /usr/local/src/xymon-* 
+cd /usr/local/src/xymon-*
 source rhel8_makevars.sh
 ./configure
 make

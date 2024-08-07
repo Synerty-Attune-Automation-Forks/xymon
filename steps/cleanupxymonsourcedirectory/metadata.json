@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "4105a567-9090-45cc-bea8-5f872979e89d", 
+    "interpreter": 1, 
+    "key": "cleanupxymonsourcedirectory", 
+    "name": "Clean Up Xymon Source Directory", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

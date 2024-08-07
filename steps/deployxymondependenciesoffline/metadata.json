@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "xymonrpmdependencies", 
+    "deployPath": "{targetServerInstallerTmpPath.value}/xymon", 
+    "enabled": true, 
+    "externalUuid4": "6947043a-2a18-4f02-b2cc-3a21a5895328", 
+    "key": "deployxymondependenciesoffline", 
+    "name": "Deploy Xymon dependencies (offline)", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}
