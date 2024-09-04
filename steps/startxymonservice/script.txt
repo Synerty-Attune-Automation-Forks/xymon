@@ -1,4 +1,12 @@
-
+# start xymon this way the first time
 su - xymon -c "/opt/xymon/server/bin/xymon.sh start"
 sleep 5
 su - xymon -c "/opt/xymon/server/bin/xymon.sh status"
+sleep 2
+su - xymon -c "/opt/xymon/server/bin/xymon.sh stop"
+sleep 2
+# Now start with systemd plugin for init.d
+echo "Restarting Xymon with systemctl"
+systemctl start xymon
+
+systemctl --quiet is-active xymon  && echo "Xymon Service is running" || echo "Xymon Service is not running"

@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "6f59037c-bfd1-4b76-8063-96fd397c881c", 
+    "key": "httpdsslconfport8020", 
+    "name": "httpd ssl.conf port 8020", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

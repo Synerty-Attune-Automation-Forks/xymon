@@ -1,10 +1,10 @@
 {
     "actionOnStepFail": "stop", 
     "enabled": true, 
-    "externalUuid4": "a00ec9c7-c081-4103-9829-c68fe2331cb3", 
+    "externalUuid4": "9b2fe998-2dbe-41c7-849d-c570e890871d", 
     "interpreter": 1, 
-    "key": "compilexymon4330", 
-    "name": "Compile Xymon 4.3.30", 
+    "key": "setupwebserverforxymon", 
+    "name": "Setup WebServer for Xymon", 
     "osCredKey": "linuxrootuser", 
     "serverKey": "targetserverlin", 
     "successExitCode": 0, 

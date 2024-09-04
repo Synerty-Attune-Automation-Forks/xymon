@@ -2,12 +2,18 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "c5a77b60-ae74-460b-a7c3-87640b7678e7", 
+    "externalUuid4": "297eb198-4f1d-47da-abfe-c7359c1307e7", 
     "isBlueprint": false, 
-    "key": "installxymonserverrhel8", 
+    "key": "installxymonserverrhel8offline", 
     "links": [
         {
-            "stepKey": "installxymonrpmdependencies"
+            "stepKey": "deployxymondependenciesoffline"
+        }, 
+        {
+            "stepKey": "installxymonrpmdependenciesoffline"
+        }, 
+        {
+            "stepKey": "cleanuprpms"
         }, 
         {
             "stepKey": "createxymonuserandgroup"
@@ -22,15 +28,12 @@
             "stepKey": "compilexymon"
         }, 
         {
-            "stepKey": "cleanupxymonsourcedirectory"
-        }, 
-        {
             "stepKey": "setupwebserverforxymon"
         }, 
         {
             "stepKey": "startxymonservice"
         }
     ], 
-    "name": "Install Xymon Server - RHEL8", 
+    "name": "Install Xymon Server - RHEL8 (offline)", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

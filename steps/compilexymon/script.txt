@@ -1,0 +1,17 @@
+mkdir -p /opt/xymon
+chown xymon:xymon /opt/xymon
+
+mv {targetServerInstallerTmpPath}/xymon/* /usr/local/src/xymon-* 
+cd /usr/local/src/xymon-*
+source rhel8_makevars.sh
+./configure
+make
+sleep 10
+make install
+
+chown -R xymon:xymon /opt/xymon
+
+# Install the init.d startup Script
+cp xymon /etc/init.d/
+chmod +x /etc/init.d/xymon
+chkconfig xymon on

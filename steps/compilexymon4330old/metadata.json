@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "continue", 
+    "enabled": true, 
+    "externalUuid4": "a00ec9c7-c081-4103-9829-c68fe2331cb3", 
+    "interpreter": 1, 
+    "key": "compilexymon4330old", 
+    "name": "Compile Xymon 4.3.30 - old", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7e28699c-8a85-402b-806a-fc52246cb54c", 
+    "key": "xymonhttpsport", 
+    "name": "Xymon Https Port", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

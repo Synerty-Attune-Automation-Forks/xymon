@@ -22,13 +22,15 @@ export XYMONLOGDIR=/var/log/xymon
 export MANROOT=/usr/local/man
 # How to run fping or xymonping
 export FPING=/usr/sbin/fping
-export USEXMONPING=n
+export USEXYMONPING=n
+export USERPING=/usr/sbin/fping
+
 
 # Username running Xymon
 export XYMONUSER=xymon
 # Xymon server hostname
-export XYMONHOSTNAME={targetServerLin.hostname}
-export XYMONHOSTIP={targetServerLin.Ip}
+export XYMONHOSTNAME=${targetServerLin.fqn}
+export XYMONHOSTIP=${targetServerLin.ip}
 # Xymon server OS
 export XYMONHOSTOS=linux
 

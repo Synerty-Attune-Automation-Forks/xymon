@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "c8197e5c-d94d-4c4b-b9a3-e4be65a57ef6", 
+    "interpreter": 1, 
+    "key": "setxymonuserpassword", 
+    "name": "Set Xymon User Password", 
+    "osCredKey": "linuxrootuser", 
+    "promptResponses": "assword:==={linuxXymonUser.password}", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

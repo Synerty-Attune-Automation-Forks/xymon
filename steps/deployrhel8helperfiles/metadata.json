@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": "stop", 
     "archiveKey": "xymonrhelmakevarssh", 
-    "deployPath": "/usr/local/src/xymon-4.3.30", 
+    "deployPath": "{targetServerInstallerTmpPath}/xymon", 
     "enabled": true, 
     "externalUuid4": "97ac6101-92f3-465e-aa45-4fb7bbf3923b", 
     "key": "deployrhel8helperfiles", 
