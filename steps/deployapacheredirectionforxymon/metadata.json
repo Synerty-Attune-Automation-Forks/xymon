@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "apacheredirectionforxymon", 
+    "deployPath": "/var/www/html", 
+    "enabled": true, 
+    "externalUuid4": "6edf3277-69a5-49d2-96c4-cbad3c421ef9", 
+    "key": "deployapacheredirectionforxymon", 
+    "name": "Deploy Apache Redirection for Xymon", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

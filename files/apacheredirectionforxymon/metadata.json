@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "5b9b4864-2970-4298-984b-348f86a15240", 
+    "key": "apacheredirectionforxymon", 
+    "name": "Apache Redirection for Xymon", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

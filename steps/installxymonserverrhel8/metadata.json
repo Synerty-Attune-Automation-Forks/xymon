@@ -25,6 +25,9 @@
             "stepKey": "cleanupxymonsourcedirectory"
         }, 
         {
+            "stepKey": "deployapacheredirectionforxymon"
+        }, 
+        {
             "stepKey": "setupwebserverforxymon"
         }, 
         {
