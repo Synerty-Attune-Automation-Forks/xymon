@@ -6,7 +6,7 @@
     "externalUuid4": "8740e197-684f-4e18-960d-54e5a4f7308e", 
     "key": "deployhttpsslconf", 
     "makoFileNames": [
-        "ssl.conf"
+        "xymon-ssl.conf"
     ], 
     "makoParameters": [
         {
