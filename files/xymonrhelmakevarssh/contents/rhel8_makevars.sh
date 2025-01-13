@@ -27,7 +27,7 @@ export USERPING=/usr/sbin/fping
 
 
 # Username running Xymon
-export XYMONUSER=xymon
+export XYMONUSER=${linuxXymonUser.user}
 # Xymon server hostname
 export XYMONHOSTNAME=${targetServerLin.fqn}
 export XYMONHOSTIP=${targetServerLin.ip}
