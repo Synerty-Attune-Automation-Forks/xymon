@@ -1,6 +1,6 @@
 
 # Install Build environment and xymon dependent packages
-dnf install -y cpp make
+dnf install -y gcc cpp make
 dnf install -y fping pcre pcre-devel rrdtool rrdtool-devel
 dnf install -y openssl openssl-devel openldap openldap-devel
 
