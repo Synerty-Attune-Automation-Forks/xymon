@@ -1,4 +1,4 @@
 
 # Rename factory ssl.conf
 file=/etc/httpd/conf.d/ssl.conf
-mv ${file} ${file}.factory
+[ -f ${file} ] && mv ${file} ${file}.factory || true
