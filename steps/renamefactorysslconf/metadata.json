@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "614ae912-f413-4726-8ff7-5f527c3e233b", 
+    "interpreter": 1, 
+    "key": "renamefactorysslconf", 
+    "name": "Rename factory ssl.conf", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "targetserverlin", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

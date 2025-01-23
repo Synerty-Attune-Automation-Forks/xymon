@@ -13,6 +13,11 @@
             "name": "targetServerLin", 
             "parameterKey": "targetserverlin", 
             "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "linuxXymonUser", 
+            "parameterKey": "linuxxymonuser", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
         }
     ], 
     "name": "Deploy RHEL8 Helper Files", 

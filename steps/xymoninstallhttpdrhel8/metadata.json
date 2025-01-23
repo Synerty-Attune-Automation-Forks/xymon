@@ -10,6 +10,9 @@
             "stepKey": "installhttpd"
         }, 
         {
+            "stepKey": "renamefactorysslconf"
+        }, 
+        {
             "stepKey": "deployhttpsslconf"
         }, 
         {
